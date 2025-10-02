@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="relative w-[100vw] h-[100vh] overflow-hidden">
             {/* Background Image */}
             <img
-                src={Image}
+                src="https://i.ibb.co.com/21ndRYkh/hero.jpg"
                 alt="temp image"
                 className="absolute inset-0 w-full h-full object-cover z-0"
             />

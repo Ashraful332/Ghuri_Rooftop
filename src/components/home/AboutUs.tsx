@@ -23,13 +23,13 @@ const AboutUs = () => {
                     </div>
                     <div className="relative">
                         <div className="mt-12 lg:mt-0">
-                            <img src={redytabil} alt="image" className="w-[100%] lg:w-[400px] xl:w-[614px] h-[250px] xl:h-[400px] rounded-lg object-cover" />
+                            <img src="https://i.ibb.co.com/9Hy8JQ4t/556111840-122141251550649673-8423459026622778547-n.jpg" alt="image" className="w-[100%] lg:w-[400px] xl:w-[614px] h-[250px] xl:h-[400px] rounded-lg object-cover" />
                         </div>
                         <div className="absolute z-20 hidden lg:flex bottom-30 xl:-bottom-10 -left-20 border border-dotted border-[#ddd] p-4 bg-[#ffffff15] backdrop-blur-[1.3px] rounded-2xl ">
-                            <img src={picake} alt="image" className="w-[166px] h-[110px] rounded-lg " />
+                            <img src="https://i.ibb.co.com/Gv1jMz6r/548497845-122140073984649673-4389683067337673647-n.jpg" alt="image" className="w-[166px] h-[110px] rounded-lg object-cover " />
                         </div>
                         <div className="absolute z-20 hidden lg:flex -top-10 -right-20 border border-dotted border-[#ddd] p-4 bg-[#ffffff15] backdrop-blur-[1.3px] rounded-2xl ">
-                            <img src={itemsmenu} alt="image" className="w-[232px] h-[154px] rounded-lg " />
+                            <img src="https://i.ibb.co.com/35Sxn5vP/556526212-122141251652649673-257610486915405577-n.jpg" alt="image" className="w-[232px] h-[154px] rounded-lg object-cover " />
                         </div>
                         <div className="absolute z-30 -top-10 -left-20 hidden lg:flex">
                             <img src={Corn} alt="corn ilastration" className="w-[100px] h-[100px] " />
