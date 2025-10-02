@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-2">
                         <img
                             className="w-[50px] h-[50px] object-contain"
-                            src="/MyLogobg.png"
+                            src="/logo.png"
                             alt="logo"
                         />
                         <span className="text-xl font-bold tracking-wide">Ghuri Rooftop</span>
@@ -43,7 +43,7 @@ const Navbar = () => {
                             to="/"
                             className="hero-btn text-white hover:text-[var(--sc)] "
                         >
-                            RESERVATION
+                            RESERVATION   
                         </Link>
                     </div>
 

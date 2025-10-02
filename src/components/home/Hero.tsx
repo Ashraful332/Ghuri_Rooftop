@@ -19,7 +19,7 @@ const Hero = () => {
                     Enjoy your time in our Restaurant with pleasure.
                 </p>
                 <h1 className="text-hero">
-                    Welcome to The Forked Premium Restaurant
+                    Welcome to The Ghuri Rooftop Restaurant
                 </h1>
                 <button className="btn-primary mt-6">Start Explore</button>
             </div>
