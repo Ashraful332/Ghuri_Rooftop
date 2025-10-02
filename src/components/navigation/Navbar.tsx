@@ -18,7 +18,7 @@ const Navbar = () => {
                             src="/MyLogobg.png"
                             alt="logo"
                         />
-                        <span className="text-xl font-bold tracking-wide">PATHAN RESTAURANT</span>
+                        <span className="text-xl font-bold tracking-wide">Ghuri Rooftop</span>
                     </div>
 
                     {/* Desktop Menu */}
