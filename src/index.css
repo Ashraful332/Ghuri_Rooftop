@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+:root {
+    /* --pc: #232032; primary color */ 
+    /* --sc: #C19D60; primary color */
+    --black: #1E1E1E; /* black color */
+    --pc: 	hsl(250, 22%, 16%); /* primary color 1 #232032 */
+    --pc2: 	hsl(248, 14%, 22%); /* primary color 2 #32303F */
+    --sc: #c4984e; /* secondary color */
+    --sc2: #e29c0f; /* secondary color */
+    --margin-primary:160px;
+    --margin-mid:80px;
+    --margin-low:60px;
+}
+
+
+/* Utility classes */
+@layer utilities {
+    /* background color */
+    .bg-primary {
+        @apply bg-[var(--pc)];
+    }
+    .bg-primary2 {
+        @apply bg-[var(--pc2)];
+    }
+    .bg-black {
+        @apply bg-[var(--black)];
+    }
+    .bg-sec {
+        @apply bg-[var(--sc)];
+    }
+    .bg-sec2 {
+        @apply bg-[var(--sc)];
+    }
+
+    /* font color */
+    .text-black-c {
+        @apply text-[var(--black)];
+    }
+    .text-primary-c {
+        @apply text-[var(--pc)];
+    }
+    .text-primary2-c {
+        @apply text-[var(--pc2)];
+    }
+    .text-primary3-c {
+        @apply text-[var(--pc3)];
+    }.text-c-sec {
+        @apply text-[var(--sc)];
+    }
+
+    /* flex box */
+    .flex-center {
+        @apply flex flex-col items-center justify-center;
+    }
+    .flex-column {
+        @apply flex flex-col items-center ;
+    }
+    .flex-start {
+        @apply flex flex-col ;
+    }
+    .flex-row-center {
+        @apply flex flex-row items-center ;
+    }
+
+    /* text style */
+    .text-heading{
+        @apply font-bold text-4xl text-center ;
+    }
+    /* text for hero section */
+    .text-hero{
+        @apply text-2xl md:text-6xl font-bold max-w-3xl mx-auto leading-[1.2] text-white text-center ;
+    }
+    /* colorfull text on italic  */
+    .color-text{
+        @apply text-sm text-[var(--sc)] italic font-semibold ;
+    }
+
+    /* margin high */
+    .mx-h{
+        @apply mx-[var(--margin-primary)];
+    }
+    .my-h{
+        @apply my-[var(--margin-primary)];
+    }
+    .mt-h{
+        @apply mt-[var(--margin-primary)];
+    }
+    .mb-h{
+        @apply mb-[var(--margin-primary)];
+    }
+    /* margin medum */
+    .mx-m{
+        @apply mx-[var(--margin-mid)];
+    }
+    .my-m{
+        @apply my-[var(--margin-mid)];
+    }
+    .mt-m{
+        @apply mt-[var(--margin-mid)];
+    }
+    .mb-m{
+        @apply mb-[var(--margin-mid)];
+    }
+    /* margin low */
+    .mx-low{
+        @apply mx-[var(--margin-low)];
+    }
+    .my-low{
+        @apply my-[var(--margin-low)];
+    }
+    .mt-low{
+        @apply mt-[var(--margin-low)];
+    }
+    .mb-low{
+        @apply mb-[var(--margin-low)];
+    }
+    
+    /* Padding high */
+    .px-h{
+        @apply px-[var(--margin-primary)];
+    }
+    .py-h{
+        @apply py-[var(--margin-primary)];
+    }
+    .pt-h{
+        @apply pt-[var(--margin-primary)];
+    }
+    .pb-h{
+        @apply pb-[var(--margin-primary)];
+    }
+    /* margin medum */
+    .px-m{
+        @apply px-[var(--margin-mid)];
+    }
+    .py-m{
+        @apply py-[var(--margin-mid)];
+    }
+    .pt-m{
+        @apply pt-[var(--margin-mid)];
+    }
+    .pb-m{
+        @apply pb-[var(--margin-mid)];
+    }
+    /* margin low */
+    .px-low{
+        @apply px-[var(--margin-low)];
+    }
+    .py-low{
+        @apply py-[var(--margin-low)];
+    }
+    .pt-low{
+        @apply pt-[var(--margin-low)];
+    }
+    .pb-low{
+        @apply pb-[var(--margin-low)];
+    }
+    
+}

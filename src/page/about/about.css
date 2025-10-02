@@ -1,0 +1,54 @@
+
+/* hero image */
+.background-image{
+    background-image: url("https://i.ibb.co.com/8g15Hm6T/pexels-picsfast-8753672.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+/* hero image menu page */
+.background-image-menu{
+    background-image: url("https://i.ibb.co.com/Ps6q21NG/pexels-pablo-macedo-287472-845811.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+/* hero image contacts page */
+.background-image-cont{
+    background-image: url("https://i.ibb.co.com/vCMFjKsH/pexels-valeriya-16474898.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+
+/* about data */
+.data-main {
+    background-image: url("https://i.ibb.co.com/C5f3DV7Z/eiliv-aceron-Zu-IDLSz3-XLg-unsplash.jpg");
+    display: inline-flex;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+/* Reservation data */
+.reservation-main{
+    background-image: url("https://i.ibb.co.com/jvjv5LqN/pexels-horizon-content-2100060-3738730.jpg");
+    display: inline-flex;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
