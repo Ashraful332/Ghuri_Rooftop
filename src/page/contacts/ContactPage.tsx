@@ -89,11 +89,10 @@ const ContactPage = () => {
                     <div className="w-full flex justify-center">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d74216.90276894011!2d90.554368!3d23.6847104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1759304234877!5m2!1sen!2sbd"
-                            style={{ border: 0 }}
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            className="w-full h-[300px] sm:h-[400px] rounded-xl"
+                            className="w-full h-[300px] sm:h-[400px] rounded-xl border-0"
                         ></iframe>
                     </div>
 
@@ -124,7 +123,7 @@ const ContactPage = () => {
                             {/* Message */}
                             <textarea
                                 placeholder="Your Message:"
-                                rows="6"
+                                rows={6}
                                 className="w-full border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600"
                             ></textarea>
 
