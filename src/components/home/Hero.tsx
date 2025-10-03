@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="relative w-[100vw] h-[100vh] overflow-hidden">
             {/* Background Image */}
             <img
-                src={Image}
+                src="https://i.ibb.co.com/21ndRYkh/hero.jpg"
                 alt="temp image"
                 className="absolute inset-0 w-full h-full object-cover z-0"
             />
@@ -19,7 +19,7 @@ const Hero = () => {
                     Enjoy your time in our Restaurant with pleasure.
                 </p>
                 <h1 className="text-hero">
-                    Welcome to The Forked Premium Restaurant
+                    Welcome to The Ghuri Rooftop Restaurant
                 </h1>
                 <button className="btn-primary mt-6">Start Explore</button>
             </div>

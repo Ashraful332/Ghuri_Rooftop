@@ -12,6 +12,8 @@ import GalleryPage from "./page/gallery/Gallery";
 import MenuPage from "./page/menu/MenuPage";
 import Reservation from "./page/Reservation/Reservation";
 import About_us from "./page/about/About_us";
+import { Toaster } from "react-hot-toast";
+import BlogDetails from "./page/blog/details/BlogDetails";
 
 
 const root = document.getElementById("root") as HTMLElement;
@@ -23,6 +25,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/ui" element={<Ui />} />
       <Route path="/about" element={<About_us />} />
       <Route path="/blog" element={<BlogPage />} />
+      <Route path="/blog/:id" element={<BlogDetails />} />
       <Route path="/cart" element={<CartPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/gallery" element={<GalleryPage />} />
@@ -30,5 +33,6 @@ ReactDOM.createRoot(root).render(
       <Route path="/reservation" element={<Reservation />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
+    <Toaster />
   </BrowserRouter>,
 );

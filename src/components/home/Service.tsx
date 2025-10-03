@@ -17,7 +17,7 @@ const Service = () => {
                             {/* Image Background */}
                             <img
                                 className="absolute inset-0 w-full h-full object-cover"
-                                src={redytabil}
+                                src="https://i.ibb.co.com/Hpr9Fc7w/549634604-122140647170649673-3110428728664593221-n.jpg"
                                 alt="Shoes"
                             />
                             {/* Overlay */}
@@ -39,7 +39,7 @@ const Service = () => {
                             {/* Image Background */}
                             <img
                                 className="absolute inset-0 w-full h-full object-cover"
-                                src={picake}
+                                src="https://i.ibb.co.com/nMn4484t/555808304-122141250812649673-769316797427754976-n.jpg"
                                 alt="Shoes"
                             />
                             {/* Overlay */}
@@ -59,7 +59,7 @@ const Service = () => {
                             {/* Image Background */}
                             <img
                                 className="absolute inset-0 w-full h-full object-cover"
-                                src={itemsmenu}
+                                src="https://i.ibb.co.com/TBhj6Gtf/555932784-122141467376649673-3223529756217180588-n.jpg"
                                 alt="Shoes"
                             />
                             {/* Overlay */}

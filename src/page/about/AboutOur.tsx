@@ -20,7 +20,7 @@ const AboutOur = () => {
                     </div>
                     <div className="relative">
                         <div className="">
-                            <img src={redytabil} alt="image" className=" w-full lg:w-[500px] xl:w-[614px] h-[250px] xl:h-[400px] rounded-lg object-cover " />
+                            <img src="https://i.ibb.co.com/zhmzZvZP/544852594-122139329312649673-5418584895196949075-n.jpg" alt="image" className=" w-full lg:w-[500px] xl:w-[614px] h-[250px] xl:h-[400px] rounded-lg object-cover " />
                         </div>
                         <div className="hidden sm:flex sm:flex-col absolute z-20 bottom-30 xl:-bottom-2 -right-5 xl:-right-20 border border-dotted border-[#ddddddc0] p-4 bg-[#ffffff15] 
                         backdrop-blur-[4.3px] rounded-2xl w-[300px] h-[150px] text-white ">
