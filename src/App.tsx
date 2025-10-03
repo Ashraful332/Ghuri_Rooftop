@@ -7,6 +7,7 @@ import PopularBlog from './components/home/PopularBlog'
 import Service from './components/home/Service'
 import Footer from './components/navigation/Footer'
 import Navbar from './components/navigation/Navbar'
+import Map from './components/ui/Map'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Service/>
       <Menu_offers/>
       <Clients/>
+      <Map/>
       <Footer/>
     </div>
   )
