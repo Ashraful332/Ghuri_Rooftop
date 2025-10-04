@@ -1,4 +1,3 @@
-import redytabil from "../../assets/image/redytabil.jpg";
 
 
 const AboutOur = () => {
