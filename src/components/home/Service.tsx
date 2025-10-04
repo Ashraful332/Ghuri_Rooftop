@@ -1,3 +1,4 @@
+
 import CornBig from "../../assets/icon/wheat.svg";
 
 
