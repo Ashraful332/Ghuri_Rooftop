@@ -40,7 +40,7 @@ const Navbar = () => {
                             />
                         </button>
                         <Link
-                            to="/"
+                            to="/reservation"
                             className="hero-btn text-white hover:text-[var(--sc)] "
                         >
                             RESERVATION   
