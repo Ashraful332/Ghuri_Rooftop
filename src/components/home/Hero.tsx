@@ -16,7 +16,7 @@ const Hero = () => {
             {/* Text & Button */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-20">
                 <p className="color-text">
-                    Enjoy your time in our Restaurant with pleasure.
+                    Fine Dine Multi Cuisine Restaurant And Aesthetic Environment In Dhaka.
                 </p>
                 <h1 className="text-hero">
                     Welcome to The Ghuri Rooftop Restaurant
