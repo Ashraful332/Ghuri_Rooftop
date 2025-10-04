@@ -41,16 +41,9 @@ const BlogPage = () => {
             <Navbar />
             <div className="mt-m mb-h">
                 <h3 className="text-center text-lg md:text-4xl font-bold mt-h mb-low ">All Blog</h3>
-                <div className="max-w-[1500px] mx-auto ">
+                <div className="max-w-[1500px] mx-auto flex-center ">
                     {isLoading ? (
-                        <div className="flex space-x-2 mt-7 mb-4">
-                            <div className="w-4 h-4 bg-gray-500 rounded-full animate-bounce"></div>
-                            <div className="w-4 h-4 bg-gray-500 rounded-full animate-bounce [animation-delay:-0.2s]"></div>
-                            <div className="w-4 h-4 bg-gray-500 rounded-full animate-bounce [animation-delay:-0.4s]"></div>
-                            <div className="w-4 h-4 bg-gray-500 rounded-full animate-bounce [animation-delay:-0.6s]"></div>
-                            <div className="w-4 h-4 bg-gray-500 rounded-full animate-bounce [animation-delay:-0.8s]"></div>
-                            <div className="w-4 h-4 bg-gray-500 rounded-full animate-bounce [animation-delay:-0.10s]"></div>
-                        </div>
+                        <div className="w-12 h-12 border-4 border-amber-600 border-t-transparent rounded-full animate-spin flex-center"></div>
 
                     ) : (
                         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 md:gap-6 md:p-4 mb-sec">

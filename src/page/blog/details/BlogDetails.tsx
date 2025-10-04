@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import CommentBlog from "./Comment";
-import  Eye  from "../../../assets/icon/menu.svg";
+import  Eye  from "../../../assets/icon/eye.svg";
 import Navbar from "../../../components/navigation/Navbar";
 import Footer from "../../../components/navigation/Footer";
 
@@ -17,7 +17,6 @@ type BlogData = {
     photoUrl: string,
     description: string,
     View: string
-
 }
 
 
