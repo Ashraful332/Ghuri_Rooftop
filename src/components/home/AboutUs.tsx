@@ -11,11 +11,14 @@ const AboutUs = () => {
                         <h3 className="font-bold text-2xl mt-4 mb-3">About Our Restaurant</h3>
                         <hr className="border border-dashed text-[#ddd] mb-6 " />
                         <p className="text-sm text-black/70">
-                           <span className="text-2xl text-c-sec">Q</span> ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Ut enim ad minima Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
-                        </p>
-                        <p className="text-sm text-black/70 mt-2">
-                            Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna. Nec lacus dui egestas sit. Vulputate tincidunt viverra viverra etiam porta facilisis. Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna.
-                        </p>
+                            Welcome to Ghuri Rooftop (ঘুড়ি রুফটপ) — a serene escape in the heart of Dhaka where delicious food meets breathtaking city views.
+                            Located at Holding No. 122, Lift 09, Mokka Eye Hospital, Bir Uttam Samsul Alam Road, beside Bailey Road and Habibullah Bahar University College, Shantinagar, Dhaka-1000, Ghuri Rooftop offers a cozy, elegant rooftop experience for families, friends, and food lovers.
+
+                            At Ghuri Rooftop, we believe food is not just a meal — it's a memory. Our menu is thoughtfully crafted with a blend of Bangladeshi favorites, continental classics, and fusion delights, ensuring every bite brings joy and satisfaction.
+
+                            Whether you're here for a romantic dinner under the stars, a fun hangout with friends, or a family celebration, Ghuri Rooftop promises a warm ambiance, exceptional service, and unforgettable flavors.
+
+                            Come, feel the breeze, enjoy the view, and let your moments take flight — just like a “Ghuri” (kite) in the open sky. 🎈                        </p>
                         <button className="btn-sec mt-8 ">Read more About us</button>
                     </div>
                     <div className="relative">
