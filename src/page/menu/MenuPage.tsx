@@ -3,6 +3,7 @@ import Footer from "../../components/navigation/Footer";
 import Navbar from "../../components/navigation/Navbar";
 import axios from "axios";
 import star from "../../assets/icon/star.svg";
+import OrderNow from "../../components/ui/OrderNow";
 
 const PublicUrl = import.meta.env.VITE_API_URL;
 
@@ -76,13 +77,13 @@ const MenuPage = () => {
                                         </div>
 
                                         <div className="flex justify-between">
-                                            {/* <OrderNow
+                                            <OrderNow
                                                     _id={item._id}
                                                     foodName={item.foodName}
                                                     price={item.price}
                                                     details={item.details}
                                                     photo={item.PhotoUrl || "photo is not loading"}
-                                                /> */}
+                                                />
 
                                             <div className="flex-row-center gap-[2px]">
                                                 {Array.from({ length: item.rating }, (_, i) => (

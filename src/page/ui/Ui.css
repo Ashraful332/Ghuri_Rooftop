@@ -26,6 +26,7 @@
 /* hero button */
 .hero-btn{
     font-weight: 700;
+    cursor: pointer;
     position: relative;
 }
 .hero-btn::before{
