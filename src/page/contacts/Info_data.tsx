@@ -21,7 +21,7 @@ const Info_data = () => {
                             <p className="text-black/70 text-sm mt-3 mb-2">
                                 Ghuri Rooftop is located at Holding No. 122, Lift 09, Mokka Eye Hospital, Bir Uttam Samsul Alam Road, beside Bailey Road and Habibullah Bahar University College in Shantinagar, Dhaka-1000, Bangladesh.
                             </p>
-                            <a href="#" className="text-black/70 mt-2 mb-1 text-xs block">USA 27TH Brooklyn NY</a>
+                            <a href="#" className="text-black/70 mt-2 mb-1 text-xs block font-bold">Dhaka, Bangladesh</a>
                         </div>
                     </div>
 
@@ -35,10 +35,9 @@ const Info_data = () => {
                         <div className="w-full">
                             <h5 className="text-c-sec text-lg md:text-xl font-bold">Our Phone</h5>
                             <p className="text-black/70 text-sm mt-3 mb-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+                               Have questions, reservations, or special requests? Call us today and our friendly team at Ghuri Rooftop - ঘুড়ি রুফটপ will be happy to assist you.
                             </p>
-                            <a href="#" className="text-black/70 mt-2 mb-1 text-xs block">+489756412322 +123456789222</a>
+                            <a href="#" className="text-black/70 mt-2 mb-1 text-xs block font-bold">+8801611-432682 +8801616-502185</a>
                         </div>
                     </div>
 
@@ -52,10 +51,9 @@ const Info_data = () => {
                         <div className="w-full">
                             <h5 className="text-c-sec text-lg md:text-xl font-bold">Our Mail</h5>
                             <p className="text-black/70 text-sm mt-3 mb-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+                                Have questions, feedback, or reservation requests? Email us at and our friendly team at Ghuri Rooftop - ঘুড়ি রুফটপ will respond promptly to assist you.
                             </p>
-                            <a href="#" className="text-black/70 mt-2 mb-1 text-xs block">yourmail@domain.com</a>
+                            <a href="#" className="text-black/70 mt-2 mb-1 text-xs block font-bold">ghurirooptop@gmail.com</a>
                         </div>
                     </div>
 

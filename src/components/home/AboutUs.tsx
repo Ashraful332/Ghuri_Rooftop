@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Corn from "../../assets/icon/corn.png";
 
 
@@ -18,8 +19,11 @@ const AboutUs = () => {
 
                             Whether you're here for a romantic dinner under the stars, a fun hangout with friends, or a family celebration, Ghuri Rooftop promises a warm ambiance, exceptional service, and unforgettable flavors.
 
-                            Come, feel the breeze, enjoy the view, and let your moments take flight — just like a “Ghuri” (kite) in the open sky. 🎈                        </p>
-                        <button className="btn-sec mt-8 ">Read more About us</button>
+                            Come, feel the breeze, enjoy the view, and let your moments take flight — just like a “Ghuri” (kite) in the open sky. 🎈
+                        </p>
+                        <Link to='/about'>
+                            <button className="btn-sec mt-8 ">Read more About us</button>
+                        </Link>
                     </div>
                     <div className="relative">
                         <div className="mt-12 lg:mt-0 w-[100%] lg:w-[400px] xl:w-[614px] h-[250px] xl:h-[400px] overflow-hidden rounded-lg">
