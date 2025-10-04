@@ -8,9 +8,8 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-yellow-500 mb-4">About us</h3>
           <p className="text-sm leading-6 mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eaque
-            ipsa quae ab illo inventore veritatis et quasi architecto.
+            Ghuri Rooftop is located at Holding No. 122, Lift 09, Mokka Eye Hospital, Bir Uttam Samsul Alam Road, beside Bailey Road and Habibullah Bahar University College in Shantinagar, Dhaka-1000, Bangladesh.
+
           </p>
           <a
             href="#"
@@ -27,15 +26,15 @@ const Footer = () => {
           </h3>
           <p className="mb-2">
             <span className="font-semibold text-yellow-500">Call:</span>{" "}
-            +489756412322 , +56897456123
+            +8801611-432682 ,+8801616-502185
           </p>
           <p className="mb-2">
             <span className="font-semibold text-yellow-500">Write:</span>{" "}
             yourmail@domain.com
           </p>
           <p className="mb-2">
-            <span className="font-semibold text-yellow-500">Find us:</span> USA
-            27TH Brooklyn NY
+            <span className="font-semibold text-yellow-500">Find us:</span>
+             Dhaka-1000, Bangladesh.
           </p>
           <a
             href="#"
@@ -101,7 +100,7 @@ const Footer = () => {
 
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center py-6 text-sm text-gray-400">
-        <p>© Forked 2025 . All rights reserved.</p>
+        <p>©  Ghuri Rooftop 2025 . All rights reserved.</p>
 
         {/* Social icons */}
         <div className="flex space-x-3 mt-4 md:mt-0">
