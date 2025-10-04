@@ -38,10 +38,10 @@ const Our_Blog = () => {
             {blogs.map((blog) => (
                 <div
                     key={blog.id}
-                    className={`flex flex-col ${blog.reverse ? "lg:flex-row-reverse" : "lg:flex-row"} items-center lg:items-start gap-10 mb-sec`}
+                    className={`flex flex-col ${blog.reverse ? "lg:flex-row-reverse" : "lg:flex-row"} items-center lg:items-start gap-10 mb-low`}
                 >
-                    <div className="w-auto md:w-[50%] mx-auto h-auto sm:h-[357px] overflow-hidden object-center relative">
-                        <img src={blog.image} alt={blog.title} className="hover-image-blog" />
+                    <div className="w-auto md:w-[50%] mx-auto h-auto sm:h-[357px] overflow-hidden object-center relative rounded-lg">
+                        <img src={blog.image} alt={blog.title} className="hover-image-out rounded-lg" />
                     </div>
                     <div className="w-auto md:w-[50%]">
                         <p>{blog.date}</p>
@@ -60,7 +60,7 @@ const Our_Blog = () => {
                 </div>
             ))}
 
-            <Link to='/menu' className="flex justify-center mx-auto Explore-blog mb-low mt-low">
+            <Link to='/menu' className="flex justify-center mx-auto Explore-blog mb-low mt-low hero-btn">
                 Explore All Food
                 <img src={Arrow} alt="star" className="ml-2" />
             </Link>

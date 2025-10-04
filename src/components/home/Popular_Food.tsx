@@ -47,7 +47,7 @@ const Popular_Food = () => {
                 {PopulerMenu.map((item) => (
                     <div key={item.id} className="w-[97vw] sm:w-[370px] ">
                         <div className="w-[97vw] sm:w-[370px] h-auto sm:h-[300px] overflow-hidden object-center relative ">
-                            <img src={item.PhotoUrl} alt={item.foodName} className="w-full h-full object-cover " />
+                            <img src={item.PhotoUrl} alt={item.foodName} className="hover-image-out " />
                         </div>
                         <div>
                             <div className="mt-5 flex justify-between text-2xl">

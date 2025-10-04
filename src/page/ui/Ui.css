@@ -6,7 +6,7 @@
 
     /* background color */
     .btn-primary {
-        @apply text-white px-5 lg:px-12 py-2 lg:py-4 text-sm bg-radial-[at_25%_25%] from-[var(--sc)] to-[var(--sc2)] to-90% rounded-lg font-semibold hover:from-[var(--pc2)] hover:to-[var(--pc2)] transition-colors ;
+        @apply text-white px-5 lg:px-12 py-2 lg:py-4 text-sm bg-radial-[at_25%_25%] from-[var(--sc)] shadow-[0_-5px_10px_#ddd,_0_5px_10px_#363535ab] to-[var(--sc2)] to-90% rounded-lg font-semibold hover:from-[var(--pc2)] hover:to-[var(--pc2)] transition-colors ;
     }
 
     .btn-sec {
@@ -20,7 +20,10 @@
     .btn-border-black {
         @apply  px-5 lg:px-12 py-4 text-sm border-2 border-[var(--pc2)] rounded-lg font-semibold hover:bg-[var(--pc2)] transition-colors;
     }
-
+    /* Our menu food */
+    .hover-image-out{
+    @apply w-full h-full object-cover scale-100 hover:scale-110 transition-transform duration-[500ms] ease-in-out ;
+  }
 }
 
 /* hero button */

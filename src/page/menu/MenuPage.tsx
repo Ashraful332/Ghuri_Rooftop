@@ -63,7 +63,7 @@ const MenuPage = () => {
                             <div key={item._id}>
                                 <div className=" w-[97vw] sm:w-[370px] ">
                                     <div className="w-[97vw] sm:w-[370px] h-auto sm:h-[300px] overflow-hidden object-center relative ">
-                                        <img src={item.PhotoUrl} alt="photo 1" className="w-full h-full object-cover rounded-lg" />
+                                        <img src={item.PhotoUrl} alt="photo 1" className="hover-image-out rounded-lg" />
                                     </div>
                                     <div className="flex flex-col h-[170px] justify-between">
                                         <div>
@@ -106,8 +106,8 @@ const MenuPage = () => {
                         {menu.map((item) => (
                             <div key={item._id}>
                                 <div className="p-2">
-                                    <div className="w-auto sm:w-[450px] h-[300px] ">
-                                        <img src={item.PhotoUrl} alt="menu" className="w-full h-full object-cover rounded-t-lg " />
+                                    <div className="w-auto sm:w-[450px] h-[300px] overflow-hidden rounded-t-lg ">
+                                        <img src={item.PhotoUrl} alt="menu" className="hover-image-out rounded-t-lg " />
                                     </div>
                                     <div className="w-auto sm:w-[450px] h-[250px] rounded-b-lg bg-white border border-[#ddd] border-dotted p-4 
                                     flex flex-col justify-between " >

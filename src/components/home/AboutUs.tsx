@@ -19,8 +19,8 @@ const AboutUs = () => {
                         <button className="btn-sec mt-8 ">Read more About us</button>
                     </div>
                     <div className="relative">
-                        <div className="mt-12 lg:mt-0">
-                            <img src="https://i.ibb.co.com/9Hy8JQ4t/556111840-122141251550649673-8423459026622778547-n.jpg" alt="image" className="w-[100%] lg:w-[400px] xl:w-[614px] h-[250px] xl:h-[400px] rounded-lg object-cover" />
+                        <div className="mt-12 lg:mt-0 w-[100%] lg:w-[400px] xl:w-[614px] h-[250px] xl:h-[400px] overflow-hidden rounded-lg">
+                            <img src="https://i.ibb.co.com/9Hy8JQ4t/556111840-122141251550649673-8423459026622778547-n.jpg" alt="image" className="hover-image-out rounded-lg object-cover" />
                         </div>
                         <div className="absolute z-20 hidden lg:flex bottom-30 xl:-bottom-10 -left-20 border border-dotted border-[#ddd] p-4 bg-[#ffffff15] backdrop-blur-[1.3px] rounded-2xl ">
                             <img src="https://i.ibb.co.com/Gv1jMz6r/548497845-122140073984649673-4389683067337673647-n.jpg" alt="image" className="w-[166px] h-[110px] rounded-lg object-cover " />

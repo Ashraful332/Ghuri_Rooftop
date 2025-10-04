@@ -11,7 +11,7 @@ const Info_data = () => {
 
                     {/* Card 1 */}
                     <div className="w-full sm:w-[400px] lg:w-[430px] h-auto flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white 
-                    border border-[#ddd] border-dotted p-4 rounded-md">
+                    border border-[#ddd] border-dotted p-4 rounded-md shadow-[0_-5px_10px_#ddd,_0_5px_10px_#363535ab]">
 
                         <div className="bg-white w-[50px] h-[50px] border border-[#ddd] border-dotted rounded-md flex-center">
                             <img src={map} alt="icon" />
@@ -28,7 +28,7 @@ const Info_data = () => {
 
                     {/* Card 2 */}
                     <div className="w-full sm:w-[400px] lg:w-[430px] h-auto flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white 
-                    border border-[#ddd] border-dotted p-4 rounded-md">
+                    border border-[#ddd] border-dotted p-4 rounded-md shadow-[0_-5px_10px_#ddd,_0_5px_10px_#363535ab]">
 
                         <div className="bg-white w-[50px] h-[50px] border border-[#ddd] border-dotted rounded-md flex-center">
                             <img src={Call} alt="icon" />
@@ -45,7 +45,7 @@ const Info_data = () => {
 
                     {/* Card 3 */}
                     <div className="w-full sm:w-[400px] lg:w-[430px] h-auto flex flex-col lg:flex-row items-center gap-4 bg-[#F6F6F6] hover:bg-white 
-                    border border-[#ddd] border-dotted p-4 rounded-md">
+                    border border-[#ddd] border-dotted p-4 rounded-md shadow-[0_-5px_10px_#ddd,_0_5px_10px_#363535ab]">
 
                         <div className="bg-white w-[50px] h-[50px] border border-[#ddd] border-dotted rounded-md flex-center">
                             <img src={mail} alt="icon" />
