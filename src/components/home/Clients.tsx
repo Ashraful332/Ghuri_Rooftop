@@ -2,29 +2,30 @@ const Clients = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Jannet Dellov",
-      img: "https://i.ibb.co.com/GvWGMT4T/Screenshot-20250712-211018.png",
+      name: "Ashraful",
+      img: "https://i.ibb.co.com/Zzm09Wcf/ashraful.png",
       rating: 4,
-      text: `"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta."`,
+      text: `"Ghuri Rooftop offers a wonderful dining experience! The food is fresh and flavorful, and the rooftop view makes every meal feel special. Highly recommended for family dinners and casual outings."`,
       source: "VIA FOOD STANDARDS",
     },
     {
       id: 2,
-      name: "Centa Simpson",
-      img: "https://randomuser.me/api/portraits/women/65.jpg",
+      name: "Kalimuddin",
+      img: "https://i.ibb.co.com/39nXC3P7/ho.jpg",
       rating: 5,
-      text: `"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta."`,
+      text: `"Amazing ambiance and delicious dishes! The staff is friendly and attentive, and the rooftop setting is perfect for evening gatherings. Will definitely come back for more!"`,
       source: "VIA MICHLEIN.COM",
     },
     {
       id: 3,
-      name: "Nicolo Svensky",
-      img: "https://randomuser.me/api/portraits/men/70.jpg",
+      name: "Billul Miya",
+      img: "https://i.ibb.co.com/BVJx3sT1/images.webp",
       rating: 5,
-      text: `"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta."`,
+      text: `"A must-visit rooftop restaurant in Dhaka. The fusion dishes are unique, the presentation is beautiful, and the overall experience is memorable. Excellent service and cozy atmosphere!"`,
       source: "VIA TRIPADVISOR",
     },
-  ];
+];
+
 
   return (
     <div className="py-20 bg-white text-center">
@@ -49,7 +50,7 @@ const Clients = () => {
               <img
                 src={client.img}
                 alt={client.name}
-                className="w-20 h-20 rounded-full border-4 border-white shadow-md"
+                className="w-20 h-20 rounded-full border-4 border-white shadow-md object-cover"
               />
             </div>
 
