@@ -1,6 +1,3 @@
-import redytabil from "../../assets/image/redytabil.jpg";
-import picake from "../../assets/image/piecake.jpg";
-import itemsmenu from "../../assets/image/menuitems.jpg";
 import Corn from "../../assets/icon/corn.png";
 
 
