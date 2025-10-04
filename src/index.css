@@ -13,6 +13,20 @@
     --margin-low:60px;
 }
 
+/* shadow style */
+.black-shadow {
+  box-shadow: 5px 5px 10px black; /* horizontal-offset vertical-offset blur-radius color */
+}
+.top-shadow {
+  box-shadow: 0 -5px 10px #ada1a1;
+}
+.all-shadow {
+  box-shadow: 
+    0 -5px 10px #b6b0b0, /* Top shadow */
+    5px 5px 10px rgb(51, 50, 50);   /* Bottom shadow */
+}
+
+
 
 /* Utility classes */
 @layer utilities {

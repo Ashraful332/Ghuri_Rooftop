@@ -6,11 +6,11 @@ const Map = () => {
             <div className="bg-primary flex flex-col lg:flex-row gap-6 justify-center mx-auto mb-h p-6 w-full max-w-[1200px] h-auto rounded-lg">
 
                 {/* Address Card */}
-                <div className="bg-primary2 p-6 w-[100%] lg:w-[300px] h-auto rounded-lg text-white flex flex-col justify-center items-center gap-3 text-center">
-                    <h5 className="text-c-sec text-xl md:text-2xl mb-2">Dhaka Bangladesh</h5>
-                    <p>BD 27TH Brooklyn N</p>
-                    <p>+8801756412322</p>
-                    <p>yourmail@domain.com</p>
+                <div className="bg-primary2 p-6 w-[100%] lg:w-[300px] h-auto rounded-lg text-white flex flex-col justify-center items-center text-center">
+                    <h5 className="text-c-sec text-lg md:text-xl mb-2">Dhaka Bangladesh</h5>
+                    <p className="text-sm mt-1">BD 27TH Brooklyn N</p>
+                    <p className="text-sm mt-1">+8801756412322</p>
+                    <p className="text-sm mt-1">yourmail@domain.com</p>
                 </div>
 
                 {/* Google Map */}

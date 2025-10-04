@@ -73,6 +73,12 @@ const Ui = () => {
                     
                 </div>
             </div>
+            <div className="mt-h flex-center">
+                <div className="w-20 h-20 rounded-lg bg-gray-200 top-shadow"></div>
+                <div className="w-20 h-20 rounded-lg bg-gray-200 black-shadow mt-5"></div>
+                <div className="w-20 h-20 rounded-lg bg-gray-200 black-shadow top-shadow mt-5"></div>
+                <div className="w-20 h-20 rounded-lg bg-gray-200 all-shadow mt-5"></div>
+            </div>
         </div>
     );
 };
