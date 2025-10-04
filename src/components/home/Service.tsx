@@ -1,6 +1,4 @@
-import redytabil from "../../assets/image/redytabil.jpg";
-import picake from "../../assets/image/piecake.jpg";
-import itemsmenu from "../../assets/image/menuitems.jpg";
+
 import CornBig from "../../assets/icon/wheat.svg";
 
 
