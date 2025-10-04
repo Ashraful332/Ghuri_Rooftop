@@ -27,35 +27,35 @@ const Menu_offers = () => {
     {
       no: "01.",
       name: "Soft shell crab",
-      price: "$29",
+      price: "$290",
       image:
         "https://i.ibb.co.com/35Sxn5vP/556526212-122141251652649673-257610486915405577-n.jpg",
     },
     {
       no: "02.",
       name: "Victoria's Filet Mignon",
-      price: "$49",
+      price: "$490",
       image:
         "https://i.ibb.co.com/35Sxn5vP/556526212-122141251652649673-257610486915405577-n.jpg",
     },
     {
       no: "03.",
       name: "Salmon Riverland",
-      price: "$12",
+      price: "$320",
       image:
         "https://i.ibb.co.com/35Sxn5vP/556526212-122141251652649673-257610486915405577-n.jpg",
     },
     {
       no: "04.",
       name: "Prime Cuts of Beef",
-      price: "$107",
+      price: "$507",
       image:
         "https://i.ibb.co.com/35Sxn5vP/556526212-122141251652649673-257610486915405577-n.jpg",
     },
     {
       no: "05.",
       name: "Miso chicken",
-      price: "$46",
+      price: "$460",
       image:
         "https://i.ibb.co.com/35Sxn5vP/556526212-122141251652649673-257610486915405577-n.jpg",
     },
@@ -105,7 +105,10 @@ const Menu_offers = () => {
 
                   {/* Floating image (Right side, hidden on mobile) */}
                   <img
-                    ref={(el) => (imgRefs.current[index] = el)}
+                    ref={(el) => {
+                      imgRefs.current[index] = el;
+                    }}
+
                     src={item.image}
                     alt={item.name}
                     className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 w-20 h-20 rounded-lg object-cover shadow-lg pointer-events-none"
